@@ -14,6 +14,7 @@ public class WeatherComparison {
     public static void main(String[] args) {
         String urlTomorrow = "https://meteofor.com.ua/weather-odesa-4982/tomorrow/";
         String urlToday = "https://meteofor.com.ua/weather-odesa-4982/";
+        //8
 
         List<Integer> temperaturesTomorrow = getTemperatures(urlTomorrow);
         List<Integer> temperaturesToday = getTemperatures(urlToday);
